@@ -1,0 +1,30 @@
+@import '../components/variables.scss';
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('$font_root/roboto-black-webfont.woff2') format('woff2'),
+    url('$font_root/roboto-black-webfont.woff') format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('$font_root/roboto-light-webfont.woff2') format('woff2'),
+    url('$font_root/roboto-light-webfont.woff') format('woff');
+  font-style: normal;
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('$font_root/roboto-thin-webfont.woff2') format('woff2'),
+    url('$font_root/roboto-thin-webfont.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Playfairdisplays';
+  src: url('$font_root/playfairdisplay-black-webfont.woff2') format('woff2'),
+    url('$font_root/playfairdisplay-black-webfont.woff') format('woff');
+  font-style: 900;
+}

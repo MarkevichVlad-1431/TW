@@ -1,0 +1,51 @@
+@import '../components/variables.scss';
+
+%right_data {
+
+    .title {
+        margin-bottom: 25px;
+
+        text-align: right;
+        font-family: 'HelveticaNeueLTPro Roman', 'Arial', serif;
+        font-size: 48px;
+        line-height: 26px;
+        color: $title_about_color;
+    }
+
+    .tagline {
+        padding-left: 12px;
+
+        text-align: left;
+        font-family: 'Montserrat Light', 'Arial', serif;  
+        font-size: 15px;
+        line-height: 22px;
+        color: $tagline_about_color;
+    }
+}
+
+%left_data {
+
+    .title {
+        margin-bottom: 25px;
+
+        text-align: left;
+        font-family: 'HelveticaNeueLTPro Roman', 'Arial', serif;
+        font-size: 48px;
+        line-height: 26px;
+        color: $title_about_color;
+    }
+
+    .tagline {
+        text-align: left;
+        font-family: 'Montserrat Light', 'Arial', serif;  
+        font-size: 15px;
+        line-height: 22px;
+        color: $tagline_about_color;
+    }
+}
+
+%contact_button{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}

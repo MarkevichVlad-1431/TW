@@ -1,0 +1,47 @@
+@import 'variables.scss';
+@import '../helpers/extends.scss';
+
+#content{
+    position: relative;
+
+    background-color: #fff;
+
+    .about{
+    position: relative;
+
+    height: 1320px;
+    padding-top: 140px;
+
+    color: #fff;
+
+    background-image: url(../assets/img/about_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width: 769px) {
+        display: none;
+      }
+
+    .text-left {
+        @extend %right_data;
+        margin-bottom: 50px;
+    }
+
+    .circle {
+        position: relative;
+
+        img {
+            position: absolute;
+            left: 50%;
+            margin-left: -15px;
+        }
+
+    }
+
+    .text-right {
+        @extend %left_data;
+        margin-bottom: 50px;
+    }
+    }
+}

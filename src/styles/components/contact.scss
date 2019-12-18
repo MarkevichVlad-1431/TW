@@ -1,0 +1,93 @@
+@import 'variables.scss';
+@import '../helpers/extends.scss';
+
+.contact{
+    position: relative;
+
+    height: auto;
+
+    text-align: center;
+
+    .title{
+        font-family: 'HelveticaNeueLTPro Lt', "Arial", serif;
+        font-size: 34px;
+        line-height: 30px;
+        color: $title_team_color;
+    }
+
+    .tagline{
+        padding-top: 20px;
+        margin-bottom: 60px;
+
+        font-family: 'Merriweather Light', "Arial", serif;
+        font-size: 16px;
+        line-height: 20px;
+        color: $tagline_color;
+    }
+
+    button{
+        margin-bottom: 150px;
+
+        @media screen and (max-width: 769px) {
+            margin-bottom: 50px;
+          }
+
+        img{
+            padding-bottom: 15px;
+        }
+    }
+
+    .form{
+        @extend %contact_button;
+
+        font-family: 'HelveticaNeueLTPro Lt', 'Arial', sans-serif;
+        font-size: 15px;
+        line-height: 26px;
+        color: $tagline_color;
+        text-align: center;
+
+        @media screen and (max-width: 576px) {
+           padding: 5px;
+
+           text-align: left;
+           font-size: 10px;
+        }
+    }
+
+    .message{
+        @extend %contact_button;
+        height: 195px;
+
+        font-family: 'HelveticaNeueLTPro Lt', 'Arial', sans-serif;
+        font-size: 15px;
+        line-height: 26px;
+        color: $tagline_color;
+        text-align: left;
+
+        @media screen and (max-width: 576px) {
+            height: auto;
+            padding: 5px;
+
+            font-size: 10px;
+         }
+    }
+
+    .submit{
+        @extend %contact_button;
+
+        background-color: $submit_button_color;
+        border: 0;
+        outline: none;
+
+        font-size: 'HelveticaNeueLTPro Lt', 'Arial', sans-serif;
+        font-size: 17px;
+        line-height: 26px;
+        color: #fff;
+
+        @media screen and (max-width: 576px) {
+            padding: 5px;
+
+            font-size: 10px;
+         }
+    }
+}

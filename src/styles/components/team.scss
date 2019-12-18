@@ -1,0 +1,67 @@
+@import 'variables.scss';
+//@import '../helpers/extends.scss';
+
+.team {
+    position: relative;
+
+    height: 700px;
+
+    text-align: center;
+
+    background: #fff;
+
+    @media screen and (max-width: 769px) {
+       height: auto;
+     }
+
+    .title {
+       font-family: 'HelveticaNeueLTPro Lt', Arial, sans-serif;
+       font-size: 34px;
+       line-height: 26px;
+       color: $title_team_color;
+    }
+
+    .tagline {
+        padding-top: 15px;
+        margin-bottom: 125px;
+
+        font-family: 'Merriweather Light', 'Arial', serif;
+        font-size: 16px;
+        line-height: 26px;
+        color: $tagline_color;
+
+        @media screen and (max-width: 769px) {
+           margin-bottom: 50px; 
+        }
+    }
+
+    .collective {
+        height: 450px;
+
+        @media screen and (max-width: 769px) {
+            height: auto;
+          }
+
+        img {
+            margin-bottom: 30px;
+    
+        }
+
+        .name {
+            font-family: 'HelveticaNeueLTPro Roman', 'Aria', sans-serif;
+            font-size: 24px;
+            line-height: 26px;
+            color: $name_color;
+            
+        }
+
+        .profession {
+            margin-bottom: 25px;
+
+            font-family: 'HelveticaNeueLTPro Roman', 'Aria', sans-serif;
+            font-size: 13px;
+            line-height: 26px;
+            color: $profession_color;
+        }
+    }
+}

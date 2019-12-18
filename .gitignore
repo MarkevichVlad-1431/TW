@@ -1,0 +1,33 @@
+# Env
+/.env
+/vhost.conf
+
+# composer
+/vendor
+composer.phar
+
+# IDE
+.idea
+nbproject
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit
+phpunit.phar
+/phpunit.xml
+
+# Vagrant
+/.vagrant
+/vagrant.yaml
+frontend/web/js/lib/morris.js-0.5.1
+/2017-09-07.hm.sql
+
+#nodeJS
+node_modules
